@@ -1,0 +1,212 @@
+
+body{
+    list-style: none;
+    width: 100%;
+    background-color: white;
+}
+
+
+h1{
+    text-shadow: 2px 3px 7px grey !important;
+}
+h3{
+    font-size: 25px !important;
+}
+
+h5{
+    color:black;
+    font-weight: lighter !important;
+    font-size: 15px !important;
+    justify-content: center;
+}
+h6{
+    color:white;
+    font-weight: lighter !important;
+    font-size: 15px !important;
+    justify-content: center;
+}
+.fa-user-circle,.fa-cart-plus{width: 20px;
+    height: 20px;
+
+}
+.ficons i{
+    margin: 5px;
+}
+.fa-facebook{
+    font-size: 20px;
+}
+.fa-instagram{
+    font-size: 25px;
+}
+.fa-whatsapp{
+    font-size: 28px;
+}
+.fa-at{
+    font-size: 32px;
+}
+.flinktitle,.faddtitle,.ficontitle{
+    margin: 3px;
+    
+}
+
+
+
+.main{
+   
+    background-color:gray !important;
+    width: 100%;
+
+   
+}
+
+.main-link{
+
+    list-style:none;
+    float:right;
+    padding-top: 3px;
+    
+    
+}
+.main-link  li{
+    float: left;
+    margin: 0px 7px 0px 7px;
+    padding-top: 0px;
+    font-size: small;
+}
+
+
+.maincard{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+
+
+.card1,.card2,.card3
+    {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    background-color:white;
+    padding: 10px;
+    
+    margin: 10px;
+    text-align: center;
+    box-shadow: 2px 3px 8px grey;
+    width: 300px;
+    
+    
+    
+
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 25px !important;
+    margin-right: 10px !important;
+}
+.newarival{
+    
+    margin-top: 0px;
+    text-align: center;
+    
+            
+}
+.heading h1{
+    text-shadow: 2px 3px 7px gray;
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    .card1,.card2,.card3 {
+      width: 100%;
+    }
+  }
+
+
+.container{margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    
+    
+    margin: 5px;
+    width: 200px !important;
+    box-shadow: 2px 3px 5px grey;
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+    
+    
+}
+.page{justify-content: center!important;
+        margin: 15px 0px 5px 0px;    
+}
+
+.mainfooter{
+    width: 100%;
+    background-color:gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    text-align: center;
+    
+
+
+}
+.footer{
+    width: 100%;
+    background-color: rgb(97, 95, 95) !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: lighter !important;
+}
+
+
+
+
+.mainfooter ul li{
+    list-style: none;
+    text-decoration: none !important;
+    
+}
+
+.flinks{
+
+}
+.flinks ul li a:hover{
+    list-style: none !important;
+    text-decoration: none !important;
+    color: green;
+text-shadow: 2px 1px 5px white;
+    
+}
+.faddress{
+
+}
+
+.ficons a:hover{
+    list-style: none !important;
+    text-decoration: none !important;
+    color: green;
+
+    text-shadow: 2px 3px 8px white;
+    
+    
+
+    
+}
+
+
+
+
+
